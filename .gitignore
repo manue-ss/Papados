@@ -22,3 +22,18 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# --- Configuraciones locales de NetBeans ---
+nbproject/private/
+
+# --- Carpetas de compilación y distribución ---
+build/
+dist/
+
+# --- Configuraciones de otros editores locales ---
+.vscode/
+
+# --- Excepciones para mis librerías externas ---
+# (Des-ignora los .jar que estén en estas carpetas específicas)
+!lib/*.jar
+!web/WEB-INF/lib/*.jar
